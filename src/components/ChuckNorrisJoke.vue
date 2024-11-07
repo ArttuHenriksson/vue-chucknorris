@@ -1,18 +1,17 @@
 <template>
-  <div>
+  <div class="flex justify-center text-center">
     {{ joke }}
-    <RandomJokeButton @click="fetchJoke" />
   </div>
+
+  <RandomJokeButton @click="fetchJoke" />
 </template>
 
 <script lang="js">
 import RandomJokeButton from './RandomJokeButton.vue';
 export default {
-          components: {RandomJokeButton,},
-          data() {
-    return {
-      joke: ''
-    }
+ components: {RandomJokeButton,},
+data() {
+return {joke: '',image: ''}
   },
 
   mounted() {
