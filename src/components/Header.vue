@@ -7,6 +7,6 @@
 <script lang="js">
 
 export default {
-          components:'Header'
+components:'Header'
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center text-center">
+  <div class="flex justify-center text-center -mt-24">
     <button
       @click="$emit('click')"
       class="bg-orange-500 text-white font-bold py-2 px-4 rounded mt-6"
